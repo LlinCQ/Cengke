@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	   <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#ffffff">
+    <ImageButton
+        android:id="@+id/denglu_zhuce"
+        android:layout_width="40dp"
+        android:layout_height="fill_parent"
+        android:src="@drawable/rub_course_back_icon"
+       	android:background="@null"/>
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="同城文学圈"
+	    android:layout_centerInParent="true"
+	    android:textSize="18sp"/>
+	</RelativeLayout>
+	
+	   <ViewFlipper
+        android:id="@+id/view_flipper"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:flipInterval="3000" >
+
+        <!-- android:flipInterval="3000" 轮播时停留的事件 毫秒为单位 -->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shsrtttttttttthsx" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lanbojini_2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/falali_lafa" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/maikalun_p1" />
+    </ViewFlipper>
+    
+    <ListView 
+        android:id="@+id/tongcheng_wenyiquan_list_view"
+          android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:cacheColorHint="@null"
+          	android:scrollbars="none" />
+        <!-- android:numColumns="2" 列数 2列 -->
+        <!-- android:scrollbars="none" 滚动条无样式 ，不改变颜色 -->
+  
+</LinearLayout>

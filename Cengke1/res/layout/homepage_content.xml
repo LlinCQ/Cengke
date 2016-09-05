@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<ImageView
+	    android:id="@+id/homepage_content_image"
+	    android:layout_width="fill_parent"
+	    android:layout_height="90dp"
+	    android:background="@drawable/meinv_motuo"/>
+	<TextView
+	    android:layout_marginTop="5dp"
+	    android:id="@+id/zhuanye_leibie"
+	    android:layout_width="fill_parent"
+	    android:layout_height="20dp"
+	    android:text="二胡十段兴趣班"
+	    android:gravity="center_vertical"
+	    android:textSize="16sp"/>
+	
+	<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="18dp">
+    <TextView
+        android:layout_width="25dp"
+        android:layout_height="match_parent"
+        android:text="已报"
+        android:textSize="12sp"
+        android:textColor="#ABAAAD"
+        android:gravity="center_vertical"/>
+     <TextView
+        android:id="@+id/erhuban_renshu"
+        android:layout_width="15dp"
+        android:layout_height="match_parent"
+        android:text="1"
+        android:textSize="12sp"
+        android:textColor="#ABAAAD"
+        android:gravity="center"/>
+     <TextView
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:text="人"
+        android:textSize="12sp"
+        android:textColor="#ABAAAD"
+        android:gravity="center_vertical"/>
+    <TextView
+        android:id="@+id/peixun_jigou"
+        android:layout_marginLeft="15dp"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:text="渝中汉昌"
+        android:textSize="12sp"
+         android:textColor="#ABAAAD"
+        android:gravity="center_vertical"/>
+</LinearLayout>
+
+	<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:layout_marginTop="8dp">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="乐器"
+            android:textColor="#ABAAAD"
+            android:textSize="12sp"
+            android:gravity="center_vertical"
+            android:background="@drawable/homepage_yueqi_background"
+            android:layout_gravity="center_vertical"
+            android:paddingRight="5dp"
+            android:paddingTop="1dp"
+            android:paddingLeft="5dp"
+            android:paddingBottom="1dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="小学"
+            android:textColor="#ABAAAD"
+            android:textSize="12sp"
+            android:gravity="center_vertical"
+            android:background="@drawable/homepage_yueqi_background"
+            android:layout_gravity="center_vertical"
+            android:paddingRight="5dp"
+            android:paddingTop="1dp"
+            android:paddingLeft="5dp"
+            android:paddingBottom="1dp"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center_vertical">
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="余"
+            android:textColor="#ABAAAD"/>
+          <TextView 
+            android:gravity="center"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textColor="#FF0000"/>
+            <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="天"
+            android:textColor="#ABAAAD"/>
+    </LinearLayout>
+</RelativeLayout>
+	
+	
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

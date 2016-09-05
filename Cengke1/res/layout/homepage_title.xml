@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/rub_course_home_page_height"
+            android:drawablePadding="5dp"
+            android:textSize="15dp"
+            android:text="音乐类" />
+
+        <TextView
+            android:id="@+id/leibie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:drawablePadding="5dp"
+            android:textSize="14dp"
+            android:drawableRight="@drawable/rub_course_more_icon"
+            android:text="更多" 
+            android:textColor="#FF8400"/>
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/homepage_gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:numColumns="2"
+        android:scrollbars="none"
+        android:verticalSpacing="10px" />
+    <!-- android:numColumns="2" 列数 2列 -->
+    <!-- android:scrollbars="none" 滚动条无样式 ，不改变颜色 -->
+    <!-- android:verticalSpacing="10px"   垂直线间距离 10px 指并排多行后相隔的间距 -->
+
+</LinearLayout>

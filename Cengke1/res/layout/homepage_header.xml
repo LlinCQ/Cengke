@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_margin="8dp" >
+
+        <TextView
+            android:id="@+id/text_province"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/rub_course_pull_down_menu"
+            android:gravity="center"
+            android:paddingRight="10dp"
+            android:text="重庆" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:background="@drawable/shape_homepage_edittext_background"
+            android:focusable="true" />
+        <!-- 可聚焦的 -->
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/fubiao_touxiang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/shape_homepage_big_oval" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/fubiao_touxiang"
+                android:layout_alignTop="@id/fubiao_touxiang"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/rub_course_message_icon_point" />
+        </RelativeLayout>
+    </LinearLayout>
+
+   
+	 <ViewFlipper
+        android:id="@+id/view_flipper"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:flipInterval="3000" >
+
+        <!-- android:flipInterval="3000" 轮播时停留的事件 毫秒为单位 -->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/zdjxgfjnzgn" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lanbojini_2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/falali_lafa" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/maikalun_p1" />
+    </ViewFlipper>
+		<!-- 只要是View的子类都可以使用，比如text   Button   chenkBox等 -->
+		
+		<ListView 
+        android:id="@+id/circle_tongchengwenxue_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:scrollbars="none"
+        android:cacheColorHint="@null"/>
+       <!--  android:divider="@null" 分割物-->
+       <!--   android:scrollbars="none" 滚动条无样式 ，不改变颜色-->
+</LinearLayout>

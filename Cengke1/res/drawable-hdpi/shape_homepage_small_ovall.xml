@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" 
+	  android:shape="oval">
+    <!--  这里在原文件添加形状为圆【oval】,还可换做矩形【rectangle】等         -->
+    <solid
+        android:color="#ff0000"/>
+    <!-- 上边描阔的是    color -->
+    <Size
+         android:width="15dp"
+         android:height="15dp"/>
+    <!-- 圆形的Size -->
+
+</shape>
+	
+    
+

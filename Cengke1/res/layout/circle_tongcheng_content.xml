@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/quanzi_tongcheng_content_title"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="中国文学大典"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/quanzi_tongcheng_centent_tevt"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:text="热爱文学，四书五经，中国文学宝典"
+            android:textColor="#848484"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/quanzi_tongcheng_user"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="菜豆"
+                android:textColor="#848484"
+                android:textSize="14sp" />
+
+            <ImageButton
+                android:id="@+id/quanzi_tongcheng_pingyulun"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:background="@null"
+                android:src="@drawable/rub_course_grey_comment" />
+
+            <TextView
+                android:id="@+id/quanzi_tongcheng_pinglin_cishu"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="150"
+                android:textColor="#848484"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/quanzi_tongcheng_shijian"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="125dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="30"
+                android:textColor="#848484"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="分钟前"
+                android:textColor="#848484"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
