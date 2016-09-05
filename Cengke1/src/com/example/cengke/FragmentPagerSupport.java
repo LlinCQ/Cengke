@@ -10,8 +10,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.RadioGroup.OnCheckedChangeListener;
 
-public class FragmentPagerSupport extends FragmentActivity
-{
+public class FragmentPagerSupport extends FragmentActivity{
 	RadioGroup radioGroup;
 	RadioButton btn_homepage;//首页
 	RadioButton btn_sort;//分类
